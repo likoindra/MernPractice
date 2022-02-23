@@ -1,0 +1,44 @@
+.Main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../../public//images/background1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.IntroText {
+  width: 100%;
+  text-align: center;
+}
+.Title {
+  font-size: 95px;
+}
+.ButtonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.LandingButton {
+  width: 200px;
+  height: 55px;
+  text-transform: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ButtonContainer {
+    padding: 0 200px;
+  }
+  .Title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Title {
+    font-size: 60px;
+  }
+  .LandingButton {
+    width: 150px;
+    height: 50px;
+  }
+}

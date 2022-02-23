@@ -1,0 +1,15 @@
+.ProfilePic {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.ProfileContainer {
+  display: flex;
+  margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .ProfileContainer {
+    flex-direction: column-reverse;
+  }
+}
